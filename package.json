@@ -1,13 +1,14 @@
 {
-  "name": "TriWizWebsite",
+  "name": "triwizwebsite",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "dependencies": {
     "@popperjs/core": "^2.9.2",
     "bootstrap": "^5.0.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "sass": "^1.35.0"
+  },
   "scripts": {
     "dev": "parcel ./src/index.html",
     "prebuild": "npx rimraf build",
@@ -15,5 +16,14 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BStim80/Product-Website.git"
+  },
+  "bugs": {
+    "url": "https://github.com/BStim80/Product-Website/issues"
+  },
+  "homepage": "https://github.com/BStim80/Product-Website#readme",
+  "description": ""
 }
