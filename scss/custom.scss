@@ -1,3 +1,7 @@
 $body-bg: rgb(27, 27, 27);
 
 @import '../node_modules/bootstrap/scss/bootstrap';
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
