@@ -10743,5 +10743,9 @@ textarea.form-control-lg {
     padding-left: 1.5rem;
   }
 }
+.custombg {
+  background: black url("/abstract.e934306e.jpg");
+  background-size: cover;
+}
 
 /*# sourceMappingURL=/custom.18d3a4a7.css.map */
