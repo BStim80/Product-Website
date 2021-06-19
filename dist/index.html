@@ -52,12 +52,53 @@
 
       <style>.carousel-item{
           height:32rem;
+          position: relative;
+        }
+        .container
+        {
+          position: relative;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          
         }</style>
 
-      <div class="carousel-item active">
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators"> 
+              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#myCarousel" data-slide-to="1"></li>
+              <li data-target="#myCarousel" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="container">
+                  <h1>Home</h1>
+                  <p>Example Paragraph</p>
+                  <a href="" class="btn btn-lg btn-primary">
+                    Sign up today
+                  </a>
+                </div>
+            </div>
+            <div class="carousel-item">
+            <div class="container">
+                <h1>Products</h1>
+                <p>Example Paragraph</p>
+                <a href="" class="btn btn-lg btn-primary">
+                  Sign up today
+                </a>
+              </div>
+            </div>
+            <div class="carousel-item">
           <div class="container">
-              
+              <h1>About Us</h1>
+              <p>Example Paragraph</p>
+              <a href="" class="btn btn-lg btn-primary">
+                Sign up today
+              </a>
+            </div>
+            </div>
           </div>
+          <a href="#myCarousel" class="carousel-control-prev"></a>
       </div>
 
     <script src="/src.e31bb0bc.js"></script>
