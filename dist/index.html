@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/custom.18d3a4a7.css">
+    <title>Cooper Handcrafted Designs</title>
   <script src="/custom.18d3a4a7.js"></script></head>
   <body>
     <div class="container">
@@ -50,53 +51,64 @@
       </div>
     </div>
 
-      <style>.carousel-item{
+      <style>.carousel-item
+        {
           height:32rem;
           position: relative;
         }
-        .container
+        .carouselContainer
         {
-          position: relative;
+          position: absolute;
           bottom: 0;
           left: 0;
-          right: 0;
-          
+          right: 0;       
+          padding-bottom: 50px;  
         }</style>
 
 
 
+      <!-- <div class="carousel-item active">
+          <div class="carouselContainer">
+            <h1>Example Headline</h1>
+            <p>Example Paragraph</p>
+            <a href="#" class="btn btn-lg btn-primary">
+              Sign up today
+            </a>
+          </div>
+      </div>  -->
+
       <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
           <ol class="carousel-indicators"> 
-              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-              <li data-target="#myCarousel" data-slide-to="1"></li>
-              <li data-target="#myCarousel" data-slide-to="2"></li>
+              <li data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></li>
+              <li data-bs-target="#myCarousel" data-bs-slide-to="1"></li>
+              <li data-bs-target="#myCarousel" data-bs-slide-to="2"></li>
           </ol>
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <div class="container">
+              <div class="carouselContainer">
                   <h1>Home</h1>
                   <p>Example Paragraph</p>
-                  <a href="" class="btn btn-lg btn-primary">
+                  <!-- <a href="" class="btn btn-lg btn-primary">
                     Sign up today
-                  </a>
+                  </a> -->
                 </div>
             </div>
             <div class="carousel-item">
-            <div class="container">
+            <div class="carouselContainer">
                 <h1>Products</h1>
                 <p>Example Paragraph</p>
-                <a href="" class="btn btn-lg btn-primary">
+                <!-- <a href="" class="btn btn-lg btn-primary">
                   Sign up today
-                </a>
+                </a> -->
               </div>
             </div>
             <div class="carousel-item">
-          <div class="container">
+          <div class="carouselContainer">
               <h1>About Us</h1>
               <p>Example Paragraph</p>
-              <a href="" class="btn btn-lg btn-primary">
+              <!-- <a href="" class="btn btn-lg btn-primary">
                 Sign up today
-              </a>
+              </a> -->
             </div>
             </div>
           </div>
