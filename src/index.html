@@ -56,6 +56,8 @@
         {
           height:32rem;
           position: relative;
+          background-position: center;
+          background-size: cover;
         }
         .carouselContainer
         {
@@ -63,22 +65,10 @@
           bottom: 0;
           left: 0;
           right: 0;       
-          padding-bottom: 50px;  
+          padding-bottom: 50px;
           text-align: center;
         }
       </style>
-
-
-
-      <!-- <div class="carousel-item active">
-          <div class="carouselContainer">
-            <h1>Example Headline</h1>
-            <p>Example Paragraph</p>
-            <a href="#" class="btn btn-lg btn-primary">
-              Sign up today
-            </a>
-          </div>
-      </div>  -->
 
       <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
           <ol class="carousel-indicators"> 
@@ -87,10 +77,11 @@
               <li data-bs-target="#myCarousel" data-bs-slide-to="2"></li>
           </ol>
           <div class="carousel-inner">
-            <div class="carousel-item active">
+            <div class="carousel-item active"
+            style="background-image:url(C:\Users\bstim\TriWizWebsite\assets\88639.jpeg);">
               <div class="carouselContainer">
                   <h1>Home</h1>
-                  <p>Example Paragraph</p>
+                  <p class="text-primary">Example Paragraph</p>
                   <!-- <a href="" class="btn btn-lg btn-primary">
                     Sign up today
                   </a> -->
@@ -99,7 +90,7 @@
             <div class="carousel-item">
             <div class="carouselContainer">
                 <h1>Products</h1>
-                <p>Example Paragraph</p>
+                <p class="text-primary">Example Paragraph</p>
                 <!-- <a href="" class="btn btn-lg btn-primary">
                   Sign up today
                 </a> -->
@@ -108,18 +99,24 @@
             <div class="carousel-item">
           <div class="carouselContainer">
               <h1>About Us</h1>
-              <p>Example Paragraph</p>
+              <p class="text-primary">Example Paragraph</p>
               <!-- <a href="" class="btn btn-lg btn-primary">
                 Sign up today
               </a> -->
             </div>
             </div>
           </div>
-          <a href="#myCarousel" class="carousel-control-prev"></a>
+          <a href="#myCarousel" class="carousel-control-prev" role="button" 
+          data-bs-slide="prev">
+              <span class="sr-only"></span>
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          </a>
+          <a href="#myCarousel" class="carousel-control-next" role="button" 
+          data-bs-slide="next">
+              <span class="sr-only"></span>
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          </a>
       </div>
-
     <script src="./index.js"></script>
   </body>
-  <!--version 1.0-->
-  <!--Testing Git 3-->
 </html>
