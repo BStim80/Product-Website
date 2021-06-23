@@ -39,6 +39,8 @@ html
   background-position: center;
   background-size: cover;
   margin-top: 15px;
+  //margin-left: auto;
+  //margin-right: auto;
 }
 .carouselContainer
 {
@@ -53,6 +55,7 @@ html
 .card 
 {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: rgb(39, 39, 39);
     max-width: 300px;
     margin: auto;
     text-align: center;
