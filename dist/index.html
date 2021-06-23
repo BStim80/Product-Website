@@ -1,6 +1,10 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <style>html{
+        scroll-behavior: smooth;
+        height:2500px;
+      }</style>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -53,7 +57,7 @@
 
       <style>.carousel-item
         {
-          height:32rem;
+          height:36rem;
           position: relative;
           background-position: center;
           background-size: cover;
@@ -88,9 +92,10 @@
             <div class="carouselContainer">
                 <h1>Products</h1>
                 <p class="text-primary">Example Paragraph</p>
-                <a href="" class="btn btn-lg btn-primary">
+                <a href="" class="btn btn-primary" role="button">Link 
                   See our products
                 </a>
+                
               </div>
             </div>
             <div class="carousel-item" style="background-image:url(/pot-hanger-3.07e7b6d2.jpg);">
@@ -111,6 +116,19 @@
               <span class="sr-only"></span>
               <span class="carousel-control-next-icon" aria-hidden="true"></span>
           </a>
+      </div>
+
+      <style>.productContainer
+        {
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          right: 0;       
+          padding-bottom: 50px;
+        }</style>
+
+      <div class="productContainer">
+
       </div>
     <script src="/src.e31bb0bc.js"></script>
   </body>
