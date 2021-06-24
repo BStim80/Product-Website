@@ -10774,6 +10774,8 @@ html {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   background-color: #272727;
   max-width: 300px;
+  position: absolute;
+  left: 20px;
   margin: auto;
   text-align: center;
   font-family: arial;
