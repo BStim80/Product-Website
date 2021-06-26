@@ -127,6 +127,8 @@ html
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     background-color: rgb(39, 39, 39);
     margin: 8px;
+    //margin-inline-end: 20px;
+    //margin-inline-start: 20px;
     padding-top: 15px;
     text-align: center;
   }
@@ -174,7 +176,7 @@ html
   }
   
   .button:hover {
-    background-color: rgb(39, 39, 39);
+    background-color: grey;
   }
   
   @media screen and (max-width: 650px) {
