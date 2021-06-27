@@ -10880,7 +10880,6 @@ html {
   text-align: center;
   cursor: pointer;
   width: 100%;
-  position: bottom;
 }
 .productContainer .buttonProductPage:hover {
   background-color: grey;
