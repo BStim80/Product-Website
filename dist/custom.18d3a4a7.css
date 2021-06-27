@@ -10795,6 +10795,7 @@ html {
   margin: 8px;
   padding-top: 15px;
   text-align: center;
+  box-shadow: 10px 10px 30px rgba(255, 255, 255, 0.1);
 }
 
 .card__imageAboutUs {
@@ -10855,14 +10856,34 @@ html {
   grid-gap: 2em;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 }
+.productContainer .card__productPage {
+  width: 100%;
+  height: 150px;
+  object-fit: scale-down;
+}
 .productContainer .productBox {
   padding: 2em;
   border-radius: 0.3em;
-  box-shadow: 10px 10px 30px rgba(153, 153, 153, 0.1);
-  background-color: #464646;
+  box-shadow: 10px 10px 30px rgba(255, 255, 255, 0.1);
+  background-color: #272727;
 }
 .productContainer p {
   margin-top: 0;
+}
+.productContainer .buttonProductPage {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #1d1d1d;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  position: bottom;
+}
+.productContainer .buttonProductPage:hover {
+  background-color: grey;
 }
 .productContainer span {
   font-weight: bold;

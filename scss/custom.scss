@@ -131,6 +131,7 @@ html
     //margin-inline-start: 20px;
     padding-top: 15px;
     text-align: center;
+    box-shadow: 10px 10px 30px rgba(255, 255, 255, 0.1);
   }
 
   .card__imageAboutUs{
@@ -193,17 +194,40 @@ html
         //line below determines how many product boxes per row
         grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 
+        .card__productPage{
+            width: 100%;
+            height: 150px;
+            object-fit: scale-down;
+        }
+
         .productBox {
             padding: 2em;
             border-radius: .3em;
-            box-shadow: 10px 10px 30px rgba(153, 153, 153, 0.1);
-            background-color: rgb(70, 70, 70);
+            box-shadow: 10px 10px 30px rgba(255, 255, 255, 0.1);
+            background-color: rgb(39, 39, 39);
         }
 
         //change this to ".productImage" when ready to add in products
         p {
             margin-top: 0;
         }
+
+        .buttonProductPage {
+            border: none;
+            outline: 0;
+            display: inline-block;
+            padding: 8px;
+            color: rgb(255, 255, 255);
+            background-color: rgb(29, 29, 29);
+            text-align: center;
+            cursor: pointer;
+            width: 100%;
+            position: bottom;
+          }
+          
+          .buttonProductPage:hover {
+            background-color: grey;
+          }
 
         span {
             font-weight: bold;
