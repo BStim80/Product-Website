@@ -185,3 +185,43 @@ html
       display: block;
     }
 }
+
+    .productContainer {
+        padding: 3em;
+        display: grid;
+        grid-gap: 2em;
+        //line below determines how many product boxes per row
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+
+        .productBox {
+            padding: 2em;
+            border-radius: .3em;
+            box-shadow: 10px 10px 30px rgba(153, 153, 153, 0.1);
+            background-color: rgb(70, 70, 70);
+        }
+
+        //change this to ".productImage" when ready to add in products
+        p {
+            margin-top: 0;
+        }
+
+        span {
+            font-weight: bold;
+            position: relative;
+            margin-left: 15px;
+
+            &:before {
+                content: '';
+                position: absolute;
+                height: 1px;
+                width: 10px;
+                border-bottom: 1px solid rgb(255, 252, 252);//this line is the hyphen
+                top: 10px;
+                left: -15px;
+            }
+        }
+    }
+
+    @media (min-width: 550px) {
+
+    }
