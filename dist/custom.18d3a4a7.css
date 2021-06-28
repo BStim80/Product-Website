@@ -10868,6 +10868,8 @@ html {
 }
 .productContainer p {
   margin-top: 0;
+  font-weight: bold;
+  font-size: 18px;
 }
 .productContainer .buttonProductPage {
   border: none;
@@ -10886,7 +10888,6 @@ html {
   background-color: grey;
 }
 .productContainer span {
-  font-weight: bold;
   position: relative;
   margin-left: 15px;
 }
