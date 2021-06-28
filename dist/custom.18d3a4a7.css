@@ -10862,7 +10862,6 @@ html {
   object-fit: scale-down;
 }
 .productContainer .productBox {
-  padding: 2em;
   border-radius: 0.3em;
   box-shadow: 10px 10px 30px rgba(255, 255, 255, 0.1);
   background-color: #272727;
@@ -10880,6 +10879,8 @@ html {
   text-align: center;
   cursor: pointer;
   width: 100%;
+  position: relative;
+  bottom: 0;
 }
 .productContainer .buttonProductPage:hover {
   background-color: grey;
