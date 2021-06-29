@@ -67,67 +67,67 @@ html
     background: rgb(39, 39, 39);
 }
 
-.columnAboutUs {
-    float: left;
-    width: 33.3%;
-    margin-bottom: 16px;
-    padding: 0 8px;
-    //grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-  }
+// .columnAboutUs {
+//     float: left;
+//     width: 33.3%;
+//     margin-bottom: 16px;
+//     padding: 0 8px;
+//     //grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+//   }
   
-  .cardAboutUs {
-    background-color: rgb(39, 39, 39);
-    margin: 8px;
-    padding-top: 15px;
-    text-align: center;
-    box-shadow: 10px 10px 30px rgba(255, 255, 255, 0.1);
-    //grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-  }
+//   .cardAboutUs {
+//     background-color: rgb(39, 39, 39);
+//     margin: 8px;
+//     padding-top: 15px;
+//     text-align: center;
+//     box-shadow: 10px 10px 30px rgba(255, 255, 255, 0.1);
+//     //grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+//   }
 
-  .card__imageAboutUs{
-      width: 100%;
-      height: 150px;
-      object-fit: scale-down;
-  }
+//   .card__imageAboutUs{
+//       width: 100%;
+//       height: 150px;
+//       object-fit: scale-down;
+//   }
   
-  .about-section {
-    padding: 50px;
-    text-align: center;
-    background-color: #474e5d;
-    color: rgb(39, 39, 39);
-  }
+//   .about-section {
+//     padding: 50px;
+//     text-align: center;
+//     background-color: #474e5d;
+//     color: rgb(39, 39, 39);
+//   }
   
-  .containerAboutUs {
-    padding: 0 16px;
-    //object-fit: scale-down;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-  }
+//   .containerAboutUs {
+//     padding: 0 16px;
+//     //object-fit: scale-down;
+//     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+//   }
   
-  .containerAboutUs::after, .row::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
+//   .containerAboutUs::after, .row::after {
+//     content: "";
+//     clear: both;
+//     display: table;
+//   }
   
-  .titleAboutUs {
-    color: grey;
-  }
+//   .titleAboutUs {
+//     color: grey;
+//   }
   
-  .buttonAboutUs {
-    border: none;
-    outline: 0;
-    display: inline-block;
-    padding: 8px;
-    color: rgb(255, 255, 255);
-    background-color: rgb(29, 29, 29);
-    text-align: center;
-    cursor: pointer;
-    width: 100%;
-  }
+//   .buttonAboutUs {
+//     border: none;
+//     outline: 0;
+//     display: inline-block;
+//     padding: 8px;
+//     color: rgb(255, 255, 255);
+//     background-color: rgb(29, 29, 29);
+//     text-align: center;
+//     cursor: pointer;
+//     width: 100%;
+//   }
   
-  .buttonAboutUs:hover {
-    background-color: grey;
-  }
+//   .buttonAboutUs:hover {
+//     background-color: grey;
+//   }
   
 //    @media screen and (max-width: 650px) {
 //     .column {
