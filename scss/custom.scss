@@ -72,17 +72,16 @@ html
     width: 33.3%;
     margin-bottom: 16px;
     padding: 0 8px;
+    //grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
   }
   
   .cardAboutUs {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     background-color: rgb(39, 39, 39);
     margin: 8px;
-    //margin-inline-end: 20px;
-    //margin-inline-start: 20px;
     padding-top: 15px;
     text-align: center;
     box-shadow: 10px 10px 30px rgba(255, 255, 255, 0.1);
+    //grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
   }
 
   .card__imageAboutUs{
@@ -100,15 +99,14 @@ html
   
   .containerAboutUs {
     padding: 0 16px;
+    //object-fit: scale-down;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
   }
   
   .containerAboutUs::after, .row::after {
     content: "";
     clear: both;
     display: table;
-    display:flex;
-    flex-direction:row;
-    flex: row;
   }
   
   .titleAboutUs {
@@ -131,12 +129,12 @@ html
     background-color: grey;
   }
   
-  @media screen and (max-width: 650px) {
-    .column {
-      width: 100%;
-      display: block;
-    }
-}
+//    @media screen and (max-width: 650px) {
+//     .column {
+//       width: 100%;
+//       display: block;
+//     }
+// }
 
     .productContainer {
         padding: 3em;

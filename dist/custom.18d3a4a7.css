@@ -10790,7 +10790,6 @@ html {
 }
 
 .cardAboutUs {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   background-color: #272727;
   margin: 8px;
   padding-top: 15px;
@@ -10813,15 +10812,13 @@ html {
 
 .containerAboutUs {
   padding: 0 16px;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
 }
 
 .containerAboutUs::after, .row::after {
   content: "";
   clear: both;
   display: table;
-  display: flex;
-  flex-direction: row;
-  flex: row;
 }
 
 .titleAboutUs {
@@ -10844,12 +10841,6 @@ html {
   background-color: grey;
 }
 
-@media screen and (max-width: 650px) {
-  .column {
-    width: 100%;
-    display: block;
-  }
-}
 .productContainer {
   padding: 3em;
   display: grid;
