@@ -9,7 +9,6 @@ $font-family-sans-serif: 'Poppins', sans-sefif;
 html
 {
     scroll-behavior: smooth;
-    //height:2500px;
 }
 
 .navbar-collapse 
@@ -40,8 +39,6 @@ html
   background-position: center;
   background-size: cover;
   margin-top: 15px;
-  //margin-left: auto;
-  //margin-right: auto;
 }
 
 .carouselContainer
@@ -83,7 +80,6 @@ html
   }
 
   .aboutUsBox {
-      //padding: 2em;
       border-radius: .3em;
       box-shadow: 10px 10px 30px rgba(255, 255, 255, 0.1);
       background-color: rgb(39, 39, 39);
@@ -92,7 +88,6 @@ html
   //Product Name
   p {
       margin-top: 0;
-      //font-weight: bold;
       font-size: 20px;
       text-align: center;
   }
@@ -116,91 +111,9 @@ html
     }
 
   span {
-      //position: relative;
       text-align: center;
-      //margin-left: 15px;
-
-
-      // &:before {
-      //     //content: "";//this line is the hypen in the product price line
-      //     position: absolute;
-      //     height: 1px;
-      //     width: 10px;
-      //     border-bottom: 1px solid rgb(255, 252, 252);//this line is the hyphen color
-      //     top: 10px;
-      //     left: -15px;
-      // }
   }
 }
-
-// .columnAboutUs {
-//     float: left;
-//     width: 33.3%;
-//     margin-bottom: 16px;
-//     padding: 0 8px;
-//     //grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-//   }
-  
-//   .cardAboutUs {
-//     background-color: rgb(39, 39, 39);
-//     margin: 8px;
-//     padding-top: 15px;
-//     text-align: center;
-//     box-shadow: 10px 10px 30px rgba(255, 255, 255, 0.1);
-//     //grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-//   }
-
-//   .card__imageAboutUs{
-//       width: 100%;
-//       height: 150px;
-//       object-fit: scale-down;
-//   }
-  
-//   .about-section {
-//     padding: 50px;
-//     text-align: center;
-//     background-color: #474e5d;
-//     color: rgb(39, 39, 39);
-//   }
-  
-//   .containerAboutUs {
-//     padding: 0 16px;
-//     //object-fit: scale-down;
-//     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-//   }
-  
-//   .containerAboutUs::after, .row::after {
-//     content: "";
-//     clear: both;
-//     display: table;
-//   }
-  
-//   .titleAboutUs {
-//     color: grey;
-//   }
-  
-//   .buttonAboutUs {
-//     border: none;
-//     outline: 0;
-//     display: inline-block;
-//     padding: 8px;
-//     color: rgb(255, 255, 255);
-//     background-color: rgb(29, 29, 29);
-//     text-align: center;
-//     cursor: pointer;
-//     width: 100%;
-//   }
-  
-//   .buttonAboutUs:hover {
-//     background-color: grey;
-//   }
-  
-//    @media screen and (max-width: 650px) {
-//     .column {
-//       width: 100%;
-//       display: block;
-//     }
-// }
 
     .productContainer {
         padding: 3em;
@@ -217,7 +130,6 @@ html
         }
 
         .productBox {
-            //padding: 2em;
             border-radius: .3em;
             box-shadow: 10px 10px 30px rgba(255, 255, 255, 0.1);
             background-color: rgb(39, 39, 39);
@@ -264,6 +176,3 @@ html
         }
     }
 
-    //@media (min-width: 550px) {
-
-    //}
